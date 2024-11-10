@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Programa */
+.program-info {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+/* Formularios y botones */
+.contact-form, .titulations, .job-field, .open-enrollment {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+/* Titulaciones */
+.titulations-cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Campo Laboral */
+.job-field ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.job-images {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.job-images img {
+    width: 200px;
+    border-radius: 5px;
+}
